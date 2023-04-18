@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/* 共通部分
+-------------------------------------------*/
+html{
+  font-size:100%;
+}
+body{
+  font-family: "Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+  color:black;
+  background:white;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+h1{
+  font-size:3rem;
+}
+.wrapper{
+  max-width:1300px;
+  max-height:10000px;
+  margin:0 auto;
+  padding:0 4%;
+}
+/* header
+---------------------------------------------*/
+
+/* -- nav -- */
+.main-nav{
+  display:flex;
+  justify-content:space-around;
+  font-size:1.1rem;
+  font-family: "Yu Gothic Medium";
+  margin-top:0px;
+  list-style:none;
+  margin-left:40%;
+}
+.main-nav li{
+  display: inline-block;
+  text-align:center;
+  width: 25%;
+  padding:15px 0 5px 0;
+}
+.main-nav li:hover{
+  background-color: rgba(127,245,194,0.5);
+  color:black;
+}
+.main-nav a{
+  color:black;
+}
+.page-header{
+  border-bottom: solid 3px #00b365;
+}
+
+/* main
+---------------------------------------------*/
+
+/*--- home ---*/
+.home{
+  display:flex;
+  justify-content: space-around;
+  border-bottom: solid 3px #00b365;
+  height:500px;
+}
+/*--left--*/
+.home-left{
+  width:40%;
+  text-align: center;
+  background-image:linear-gradient(#02F7CF,#33BEF5);
+  padding:100px 20px 0px 20px;
+}
+.home-left p{
+  font-size:1.5rem;
+  padding-top:40px;
+}
+
+/*--right--*/
+.home-right{
+  width:60%;
+  text-align:center;
+  background-image: url(../images/5G.jpg);
+  background-size: cover;
+}
+
+
+/*--- index ---*/
+.index{
+  margin-top:100px;
+  margin-left:30%;
+  margin-right:30%;
+  background-color: rgb(221, 234, 240,0.5);
+;
+  padding:23px 23px 35px 23px;
+}
+.index h2{
+  text-align: center;
+  padding-left:10px;
+  border-bottom: solid 2px #00b365;
+}
+.index ol{
+  text-align: left;
+  list-style-position: inside;
+  padding-top:10px;
+  padding-left:10px;
+}
+.index a{
+  color:black;
+}
+.index a:hover{
+  color:#00b365;
+}
+
+
+/*--hist--*/
+#hist{
+  margin-top:100px;
+}
+#hist h1{
+  text-align: center;
+  border-bottom:solid 2px #00b365;
+}
+.hist-content{
+  margin-top: 30px;
+  display:flex;
+  border-bottom: solid 2px #00b365;
+}
+.hist-left{
+  width:50%;
+  padding:40px;
+}
+.hist-left h2{
+  padding-left: 20px;
+}
+.hist-left p{
+  padding-top:20px;
+}
+
+.hist-right{
+  padding:40px;
+  width:50%;
+}
+
+/*-- tech --*/
+#tech{
+  margin-top:100px;
+  padding:30px;
+  border-bottom:solid 2px #00b365;
+  padding-bottom:100px;
+}
+#tech h1{
+  text-align: center;
+}
+.grid{
+  display:grid;
+  gap:40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6%;
+  grid-template-rows: 250px 250px;
+  margin-bottom: 50px;
+}
+.item{
+  border:solid 2px #00b365;
+
+}
+.item h2{
+  padding-top: 5px;
+  text-align: center;
+  background: #00b365;
+  height: 50px;
+}
+.item p{
+  padding:10px;
+}
+
+/*--serv--*/
+#serv{
+  margin-top: 100px;
+  border-bottom:solid 2px #00b365;
+  padding-bottom: 100px;
+}
+#serv h1{
+  text-align:center;
+}
+.serv-content{
+  display:flex;
+  justify-content: space-around;
+}
+.serv-left{
+  width:50%;
+  padding:70px 0 0 120px;
+}
+.serv-right{
+  width:50%;
+  padding-top: 50px;
+  padding-right: 30px;
+}
+table{
+  border:solid 1px #00b365;
+}
+th{
+  padding:4%;
+  background: #00b365;
+}
+td{
+  padding:3%;
+  border:solid 1px #00b365;;
+}
+
+
+/*--subj--*/
+#subj{
+  margin-top: 100px;
+  border-bottom:solid 2px #00b365;
+  padding-bottom: 100px;
+}
+#subj h1{
+  text-align: center;
+}
+.subj-content{
+  display: flex;
+  margin:30px 0 30px 35%;
+}
+.number{
+  background: #00b365;
+  border-radius: 50%;
+  color:white;
+  width:50px;
+  height:50px;
+  text-align: center;
+  padding-top:12px;
+}
+.subj1{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+/*--url--*/
+.url{
+  margin:30px 0 40px 30px;
+}
+.url-content{
+  margin-top: 20px;
+}

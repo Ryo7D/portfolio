@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+   <meta charset="UTF-8">
+   <title>5Gについて</title>
+   <meta name="description" content="5Gの歴史や技術、応用、課題などを説明しています。">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+ </head>
+
+ <body class-"wrapper">
+   <header class="page-header">
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#hist">歴史</a></li>
+        <li><a href="#tech">技術</a></li>
+        <li><a href="#serv">サービス</a></li>
+        <li><a href="#subj">課題</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="home">
+      <div class="home-left">
+        <h1>5Gって何？</h1>
+        <p>携帯電話などの通信に用いられる次世代通信規格の一つであり、
+        高速大容量・高信頼・低遅延通信・多数同時接続を実現する技術。
+        </p>
+      </div>
+      <div class="home-right">
+      </div>
+    </div><!--home-->
+
+    <div class="index">
+      <h2>目次</h2>
+      <ol>
+        <a href="#hist">
+          <li>
+            モバイルネットワークの進化の歴史
+          </li>
+        </a>
+        <a href="#tech">
+          <li>
+            5Gを構成する技術
+          </li>
+        </a>
+        <a href="#serv">
+          <li>
+            5Gに期待されるサービス
+          </li>
+        </a>
+        <a href="#subj">
+          <li>
+            5Gの課題
+          </li>
+        </a>
+      </ol>
+    </div><!--index-->
+
+    <div id="hist">
+      <h1>モバイルネットワーク進化の歴史</h1>
+      <div class="hist-content">
+        <div class="hist-left">
+          <h2>1G</h2>
+          <p>1980年代に普及した移動通信システムである「1G」は、アナログ
+            通信方式を採用しており、その速度は2.0kbpsを少し上回る程度の
+            非常に低速なものでした。
+            当時は、インターネットなどのデータ通信は
+            利用できず、「自動車電話」や肩からかけて持ち運ぶ「ショルダーホン」
+            などを用いた通話機能のみが利用可能でした。
+          </p>
+        </div><!--hist-left-->
+
+        <div class="hist-right">
+          <img src="images/1G.jpg"width="650" height="550"alt="1G画像">
+        </div><!--hist-right-->
+      </div><!--hist-content-->
+
+      <div class="hist-content">
+        <div class="hist-left">
+          <h2>2G</h2>
+          <p>1990年代に普及した「2G」は、初のディジタル
+            通信方式を採用しており、その速度は200kbpsで、1Gよりも
+            はるかに高速でした。
+            また、当時は携帯電話によるデータ通信の技術が本格化し、
+            メールやインターネットを携帯電話で利用
+            できるようになりました。
+          </p>
+        </div><!--hist-left-->
+
+        <div class="hist-right">
+          <img src="images/2G.jpg" width="650" height="500" alt="2G画像">
+        </div><!--hist-right-->
+      </div><!--hist-content-->
+
+      <div class="hist-content">
+        <div class="hist-left">
+          <h2>3G</h2>
+          <p>2010年代に普及した「4G」は、国際通信連合が定める
+            「IMT-2000」に準拠する世界標準の高速通信規格で、
+            その速度は40Mbpsにまで劇的に増加しました。
+            2Gに比べて、はるかに快適な通信が可能となり、
+            ガラケーやスマホなどで利用されています。
+          </p>
+        </div><!--hist-left-->
+
+        <div class="hist-right">
+          <img src="images/3G.png"width="650" height="500" alt="3G画像">
+        </div><!--hist-right-->
+      </div><!--hist-content-->
+
+      <div class="hist-content">
+        <div class="hist-left">
+          <h2>4G</h2>
+          <p>2010年代に普及した「4G」は、現在最も利用されている
+            高速の通信規格で、その速度は100Mbpsにも上ります。
+            3Gから4Gへの変遷を経て、スマホの利用者は拡大したため、
+            ガラケーからスマホ時代への橋渡しになった通信規格とも言えます。
+          </p>
+        </div><!--hist-left-->
+
+        <div class="hist-right">
+          <img src="images/4G.jpg" width="650" height="600" alt="4G画像">
+        </div><!--hist-right-->
+      </div><!--hist-content-->
+
+
+    </div><!--hist-->
+
+    <div id="tech">
+      <h1>5Gを構成する6つの技術</h1>
+      <div class="grid">
+        <div class="item">
+          <h2>ミリ波とsub6</h2>
+          <p>信号を驚異的な速度で伝送できる28GHz帯の「ミリ波」
+            と、3.7GHz帯、もしくは4.5GHz帯の「sub6」を利用。両者が
+            デメリットを補い合うことで、超高速かつ信頼性の高い
+            通信を実現。
+　　　　　</p>
+        </div><!--item-->
+        <div class="item">
+          <h2>NOMA</h2>
+          <p>複数のユーザーに向けた信号を同じ周波数の電波で同時に送信。
+            信号間での干渉を含んだデータから、自分宛のデータだけを取り出す
+            役割を果たす「SIC」という技術が必要となる。
+          </p>
+        </div><!--item-->
+        <div class="item">
+          <h2>ビームフォーミング</h2>
+          <p>複数のアンテナを使用することで狙った方向に強い電波を
+            送信する技術。基地局間での干渉を大幅に削減できる。
+          </p>
+        </div><!--item-->
+        <div class="item">
+          <h2>エッジコンピューティング</h2>
+          <p>デバイスとサーバー間の通信経路を短縮し、低遅延を実現する技術。
+            データの処理・分析を担うことで、クラウドの負荷を軽減する。
+          </p>
+        </div><!--item-->
+        <div class="item">
+          <h2>グラント・フリー</h2>
+          <p>端末と基地局間の通信に必要であった事前許可(グラント)の過程を省き、
+            デバイス間の多数同時接続を可能にする技術。
+          </p>
+        </div><!--item-->
+        <div class="item">
+          <h2>ネットワークスライシング</h2>
+          <p>データの送信単位を用途に応じて変更することで、
+            ネットワークを仮想的に分割する技術。
+          </p>
+        </div><!--item-->
+      </div><!--grid-->
+    </div><!--tech-->
+
+    <div id="serv">
+      <h1>今後5Gに期待されるサービス</h1>
+      <div class="serv-content">
+        <div class="serv-left">
+          <table>
+            <tr>
+              <th>分野</th>
+              <th>サービス</th>
+            </tr>
+            <tr>
+              <td>交通</td>
+              <td>自動運転技術</td>
+            </tr>
+            <tr>
+              <td>農業</td>
+              <td>AI、IoT技術を利用した農業ロボット</td>
+            </tr>
+            <tr>
+              <td>医療</td>
+              <td>遠隔治療</td>
+            </tr>
+            <tr>
+              <td>エンターテインメント</td>
+              <td>8K映像でのVRライブ</td>
+            </tr>
+          </table>
+        </div><!--serv-left-->
+        <div class="serv-right">
+          <img loading="lazy" id="mypic" src="images/traf.jpg" width="650" height="400">
+        </div><!--serv-right-->
+      </div><!--serv-content-->
+    </div><!--serv-->
+
+    <div id="subj">
+      <h1>5Gを実現する上での課題</h1>
+      <div class="subj-content">
+        <div class="number">1</div>
+        <h2 class="subj1">5Gを利用できる端末の普及</h2>
+      </div>
+      <div class="subj-content">
+        <div class="number">2</div>
+        <h2 class="subj1">基地局の設置</h2>
+      </div>
+      <div class="subj-content">
+        <div class="number">3</div>
+        <h2 class="subj1">グラント・フリーの信頼性の向上</h2>
+      </div>
+    </div><!--subj-->
+
+    <div class="url">
+      <h2>引用した画像</h2>
+      <div class="url-content">
+        <h3>1G-ショルダーホン</h3>
+        <p> GB-https://gbttf.com/shoulderphone/</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>2G-携帯電話</h3>
+        <p> watson-https://www.watson.ch/digital/schweiz/121431403-swisscom-schaltet-das-2g-netz-ende-2020-ab</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>3G-ガラケー</h3>
+        <p>au -https://www.au.com/mobile/product/featurephone/kyf39/</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>4G-iPhone</h3>
+        <p>Apple-https://www.apple.com/jp/iphone/?afid=p238%7CATGjtYNr-dc_mtid_20925qtz40402&cid=wwa-jp-kwyh-iphone-Brand-iPhone--</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>自動運転車</h3>
+        <p>TIME&SPACE -https://time-space.kddi.com/au-kddi/20190322/2603</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>農業ロボット</h3>
+        <p>GINZAFARM -https://smart.ginzafarm.co.jp/farbot/</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>遠隔医療支援システム</h3>
+        <p>NTTdocomo -https://www.nttdocomo.co.jp/binary/pdf/info/news_release/topics_210319_00.pdf</p>
+      </div><!--url^content-->
+      <div class="url-content">
+        <h3>8K映像VRライブ</h3>
+        <p>Softbank News -https://www.softbank.jp/sbnews/entry/20190830_01?page=02#page-02</p>
+      </div><!--url^content-->
+    </div><!--url-->
+
+  </main>
+  <script>
+  const pics_src = ["images/traf.jpg","images/agri.jpg","images/medi.png","images/ente.jpg"];
+  let num = -1;
+  function slideshow_timer(){
+    if (num === 3){
+      num = 0;
+    }
+    else {
+      num ++;
+    }
+    document.getElementById("mypic").src = pics_src[num];
+  }
+  setInterval(slideshow_timer, 3000);
+  </script>
+ </body>
+</html>
